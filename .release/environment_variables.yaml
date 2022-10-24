@@ -1,0 +1,9 @@
+---
+defaults:
+- key: POSTGRES_DB
+  value: example
+- key: POSTGRES_PASSWORD
+  secret: true
+services:
+  backend: []
+  db: []
