@@ -1,5 +1,5 @@
 ---
-app: spring-postgres-example-11
+app: spring-postgres-example-12
 auto_deploy: true
 context: release-w9nh6s
 domain: your-company-name.xyz
