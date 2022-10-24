@@ -1,1 +1,1 @@
-INSERT INTO GREETINGS(name) values ('ReleaseHub');
+INSERT INTO GREETINGS(name) values ('ReleaseHub?');
