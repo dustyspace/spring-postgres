@@ -3,7 +3,7 @@ defaults:
 - key: POSTGRES_DB
   value: example
 - key: POSTGRES_PASSWORD
-  value:
+  value: xUnlL9U9J1Dh
   secret: true
 services:
   backend: []

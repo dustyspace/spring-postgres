@@ -42,14 +42,14 @@ workflows:
   parallelize:
   - step: services
     tasks:
-    - services.backend
     - services.db
+    - services.backend
 - name: patch
   parallelize:
   - step: services
     tasks:
-    - services.backend
     - services.db
+    - services.backend
 - name: teardown
   parallelize:
   - step: remove_environment
