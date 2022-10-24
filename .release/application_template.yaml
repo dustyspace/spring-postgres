@@ -42,13 +42,13 @@ services:
     port: '5432'
 workflows:
 - name: setup
-  parallelize:
+  order_from:
   - step: services
     tasks:
     - services.db
     - services.backend
 - name: patch
-  parallelize:
+  order_from:
   - step: services
     tasks:
     - services.db
