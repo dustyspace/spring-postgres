@@ -1,11 +1,11 @@
 ---
-app: spring-postgres-example-13
+app: spring-postgres-release
 auto_deploy: true
 context: release-w9nh6s
 domain: your-company-name.xyz
 repo_name: dustyspace/spring-postgres
 hostnames:
-- backend: backend-spring-postgres-example-11-${env_id}.${domain}
+- backend: backend-spring-postgres-release-${env_id}.${domain}
 environment_templates:
 - name: ephemeral
 - name: permanent
