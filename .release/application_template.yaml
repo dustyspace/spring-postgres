@@ -37,6 +37,9 @@ services:
   storage:
     size: 10Gi
     type: aws-efs
+  ports:
+  - type: container_port
+    port: '5432'
 workflows:
 - name: setup
   parallelize:
