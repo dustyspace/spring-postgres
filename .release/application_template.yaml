@@ -1,5 +1,5 @@
 ---
-app: spring-postgres-example-12
+app: spring-postgres-example-13
 auto_deploy: true
 context: release-w9nh6s
 domain: your-company-name.xyz
@@ -43,14 +43,10 @@ services:
 workflows:
 - name: setup
   order_from:
-  - step: services
-    tasks:
     - services.db
     - services.backend
 - name: patch
   order_from:
-  - step: services
-    tasks:
     - services.db
     - services.backend
 - name: teardown
